@@ -1,0 +1,27 @@
+{
+  "name": "mechandasahib_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.10.9",
+    "mongoose-regexp": "0.0.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^1.0.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^2.0.5"
+  }
+}
