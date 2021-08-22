@@ -8,7 +8,7 @@ const organizationRoutes = require("./routes/organizations");
 
 const app = express();
 
-mogoose.connect("mongodb+srv://mechanda:"+process.env.MONGO_ALTAS_PW+"@cluster0.xsebl.mongodb.net/masjidAPI", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
+mogoose.connect("mongodb+srv://mecsvlr:"+process.env.MONGO_ALTAS_PW+"@cluster0.ppdvb.mongodb.net/masjidAPI", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
         .then(()=>{console.log("Connected to Database")})
         .catch(()=>{console.log("Db connection failed!")});
 
